@@ -1,0 +1,142 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.orange {
+    color: rgb(255, 68, 0);
+}
+
+nav a {
+    color: rgb(23, 23, 23);
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(45deg, #ff6f61, #ffba08);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero button {
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #e67e22;
+}
+
+.carousel-container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #3e3e3e;
+    padding: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover; 
+    width: 100%;
+    border-radius: 25px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    color: #fff; 
+}
+
+.carousel-item {
+    position: relative; 
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.games-list {
+    padding: 3rem 1rem;
+}
+
+.games-list h2 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.game-item {
+    display: block;
+    background-color: #000000; 
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.game-item div {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.game-item img {
+    width: 180px;        
+    height: 180px;      
+    margin-bottom: 1rem;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.game-item:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
